@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<level name="Mine Rocailleuse" map="carte2" life="2000" mana="300"  nexus_x="384" nexus_y="480">
+
+	<gems>
+		<gem color="red" quantity="5" />
+		<gem color="green" quantity="3" />
+	</gems>
+<spawns>
+	<spawn name="P1" x="32" y="64" />
+	<spawn name="P2" x="384" y="64" />
+	<spawn name="P3" x="736" y="64" />
+
+</spawns>
+<enemytypes>
+	<type name="standard" immunity="none" speed="1" size="1" sprite="standardEn.png" life="50" mana="10" />				
+        <type name="red" immunity="none" speed="1" size="1" sprite="redEn.png" life="60" mana="12" />
+	<type name="green" immunity="green" speed="1" size="1" sprite="greenEn.png" life="60" mana="8"/>
+
+</enemytypes>
+<waves>
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P2" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P2" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P3" lapse="0.7" timer="2">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P3" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="5">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P2" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+	<wave delay="15">
+		<group spawn="P2" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P3" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P2" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P3" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="5">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P2" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>	
+		<wave delay="15">
+		<group spawn="P2" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P3" lapse="0.7" timer="2">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P3" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P2" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P2" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P3" lapse="0.7" timer="2">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	
+</waves>
+
+
+
+
+
+</level> 

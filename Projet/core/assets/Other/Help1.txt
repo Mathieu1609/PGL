@@ -1,0 +1,32 @@
+1) La gemme « rouge » : elle inflige des dégâts de zone. Une tour équipée de cette gemme applique un effet de zone à ses projectiles. 
+	L’ennemi ciblé par un projectile reçoit alors 100% des dégâts au moment de l’impact tandis que les autres ennemis 
+	dans la zone d’impact reçoivent 75% des dégâts. 
+	Si la tour est pure, le rayon d’impact est doublé et les dégâts infligés sont de 100% pour tous les ennemis dans la zone d’impact.
+
+2) La gemme « bleu » : elle va ralentir l’ennemi. Un ennemi touché voit sa vitesse réduite pendant 1 seconde.
+	Si la tour est pure, la perte de vitesse dure 3 secondes au lieu d’une.
+
+3) La gemme « jaune » : elle inflige un coup critique. Lorsqu’un tir d’une tour équipée d’au moins une gemme jaune inflige 
+    des dégâts à un ennemi,il y a une certaine probabilité que la quantité de dégâts soit triplée.
+	Si la tour est pure, un coup critique multiplie les dégâts par 5 et non par 3.
+
+4) La gemme « verte » : elle lance un poison. Un ennemi touché reçoit, en plus des dégâts infligés,
+	20% des dégâts chaque seconde pendant les 5 secondes suivantes (doublant au final le total de dégâts reçus).
+	Si la tour est pure, la quantité de dégâts par seconde passe à 100%.
+
+5) La gemme « orange » : elle inflige un drain de mana. Pour chaque ennemi perdant de l’énergie à cause du projectile, 
+	10% de cette énergie est convertie en mana et ajoutée directement à la réserve du joueur (même si l’ennemi n’est pas détruit).
+    Ce bonus de mana est multiplié par le nombre de gemmes orange dans la tour. Si la tour est pure, le bonus en mana est quintuplé.
+
+6) La gemme « cyan » : elle paralyse. Un ennemi touché a une certaine probabilité d’être paralysé pendant 
+	une seconde lorsqu’il est touché. 
+	Si la tour est pure, l’ennemi a alors 100% de chances d’être paralysé, mais la tour n’inflige plus de dégâts. 
+	De plus, le temps de paralysie, en secondes, correspond maintenant au nombre de gemmes cyan dans la tour.
+	
+7) La gemme « magenta » : elle inflige des dégâts en chaîne. Lorsqu’un ennemi est touché, il y a une certaine probabilité 
+	pour qu’un ennemi proche soit également touché. Si aucun ennemi proche (dans un rayon de 1) n’est présent, l’effet est annulé. 
+	Si l’effet se déclenche, un ennemi est choisi au hasard parmi les ennemis proches et reçoit 80% des dégâts infligés. 
+	Si la tour est pure, la quantité de dégât transmise passe à 99%.
+
+8) La gemme « violet » : vulnérabilité. Un ennemi touché voit tous les dégâts qu’il reçoit augmenter pendant une seconde. 
+	Si la tour est pure, la vulnérabilité dure 3 secondes au lieu d’une.

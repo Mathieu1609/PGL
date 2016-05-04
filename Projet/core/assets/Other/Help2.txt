@@ -1,0 +1,14 @@
+Les différentes stratégies des tours.
+
+Attention, vous devez activer l'extension si vous voulez utilisez cette extension.
+
+Cette extension permet d'avoir plus de contrôle sur les tours en définissant quelle cible elles doivent viser en priorité.
+Chaque tour peut avoir une stratégie différente.Actuellement, quatre stratégies sont applicables.
+
+1)  Stratégie par défaut, la tour vise l'ennemi le plus proche de la tour.  
+
+2)  Stratégie consistant à viser l'ennemi ayant le plus de points de vie.
+
+3)  Stratégie consistant à viser l'ennemi ayant le plus de points de mana à donner
+
+4)  Stratégie consistant à viser l'ennemi le plus éloigner de la tour.

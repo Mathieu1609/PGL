@@ -1,0 +1,152 @@
+
+UI.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+checkbox-unchecked
+  rotate: false
+  xy: 1, 723
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+bouton_home
+  rotate: false
+  xy: 1, 471
+  size: 282, 250
+  orig: 282, 250
+  offset: 0, 0
+  index: -1
+moins
+  rotate: false
+  xy: 303, 767
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+plus
+  rotate: false
+  xy: 1, 213
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+checkbox_checked
+  rotate: false
+  xy: 561, 798
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+violetGemme
+  rotate: false
+  xy: 1, 11
+  size: 222, 200
+  orig: 222, 200
+  offset: 0, 0
+  index: -1
+greenGem
+  rotate: false
+  xy: 788, 812
+  size: 201, 211
+  orig: 201, 211
+  offset: 0, 0
+  index: -1
+Button
+  rotate: false
+  xy: 303, 668
+  size: 204, 97
+  orig: 204, 97
+  offset: 0, 0
+  index: -1
+cyan
+  rotate: false
+  xy: 285, 476
+  size: 203, 190
+  orig: 203, 190
+  offset: 0, 0
+  index: -1
+PlayButton
+  rotate: false
+  xy: 561, 700
+  size: 203, 96
+  orig: 203, 96
+  offset: 0, 0
+  index: -1
+OptionButton
+  rotate: false
+  xy: 788, 716
+  size: 202, 94
+  orig: 202, 94
+  offset: 0, 0
+  index: -1
+QuitButton
+  rotate: false
+  xy: 285, 380
+  size: 200, 94
+  orig: 200, 94
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 259, 228
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+play
+  rotate: false
+  xy: 411, 228
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+blueGem
+  rotate: false
+  xy: 487, 380
+  size: 99, 94
+  orig: 99, 94
+  offset: 0, 0
+  index: -1
+redGem
+  rotate: false
+  xy: 225, 103
+  size: 110, 108
+  orig: 110, 108
+  offset: 0, 0
+  index: -1
+jaune
+  rotate: false
+  xy: 225, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+magenta
+  rotate: false
+  xy: 327, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+orangeGem
+  rotate: false
+  xy: 337, 163
+  size: 67, 63
+  orig: 67, 63
+  offset: 0, 0
+  index: -1
+tower
+  rotate: false
+  xy: 991, 991
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+Help
+  rotate: false
+  xy: 509, 715
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1

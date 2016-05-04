@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<level name="Foret Verdoyante" map="carte1"	life="1000" mana="200" nexus_x="96" nexus_y="480">
+
+
+
+	<gems>
+		<gem color="red" quantity="1" />
+		<gem color="yellow" quantity="5" />
+	</gems>
+<spawns>
+	<spawn name="P1" x="160" y="0" />
+</spawns>
+<enemytypes>
+	<type name="standard" immunity="none" speed="1" size="1" sprite="standardEn.png" life="50" mana="10" />
+					
+        <type name="red" immunity="red" speed="1" size="1" sprite="redEn.png" life="60" mana="12" />
+
+	<type name="green" immunity="green" speed="1" size="1" sprite="greenEn.png" life="60" mana="8"/>
+
+	<type name="boss"  immunity="yellow" speed="1" size="1" sprite="bossEn.png" life="250" mana="30"/>
+	
+
+</enemytypes>
+<waves>
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="5">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+			
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="5">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="5">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+			<ennemy type="boss" quantity="1"/>
+		</group>
+	</wave>
+
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="red" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+	<wave delay="15">
+		<group spawn="P1" lapse="0.5" timer="0">
+			<ennemy type="standard" quantity="20"/>
+			<ennemy type="red" quantity="1"/>
+		</group>
+		<group spawn="P1" lapse="0.7" timer="2">
+			<ennemy type="green" quantity="20"/>
+			<ennemy type="standard" quantity="10"/>
+		</group>
+	</wave>
+
+
+         
+	
+</waves>
+</level>

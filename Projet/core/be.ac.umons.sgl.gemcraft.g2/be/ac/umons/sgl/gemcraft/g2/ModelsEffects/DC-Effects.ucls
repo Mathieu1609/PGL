@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.AreaChains" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/AreaChains.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="246" y="129"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.AreaDammage" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/AreaDammage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="763" y="134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.AreaEffects" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/AreaEffects.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="477" y="398"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.CriticalEffect" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/CriticalEffect.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="166" y="696"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.DrainEffect" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/DrainEffect.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="498" y="699"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.Effects" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/Effects.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="442" y="526"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.PoisonEffect" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/PoisonEffect.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1004" y="476"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.SlowEffect" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/SlowEffect.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1363" y="683"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.StatusEffects" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/StatusEffects.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="823" y="731"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.StunEffect" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/StunEffect.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="847" y="1039"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="be.ac.umons.sgl.gemcraft.g2.ModelsEffects.WeakEffect" project="PGL-G2-core" 
+    file="/PGL-G2-core/be.ac.umons.sgl.gemcraft.g2/be/ac/umons/sgl/gemcraft/g2/ModelsEffects/WeakEffect.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="336" width="272" x="309" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="17">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="18">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="20">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="21">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
